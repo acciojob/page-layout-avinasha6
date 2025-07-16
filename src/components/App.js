@@ -1,14 +1,15 @@
 
 import React from "react";
 import './../styles/App.css';
-import Header from "./Header";
-import Footer from "./Footer";
+import PageLayout from "./PageLayout";
+
 
 const App = () => {
+
+  let data = "This is the content of my website"
   return (
     <div>
-        <Header />
-        <Footer />
+       <PageLayout  name={data}/>
     </div>
   )
 }
