@@ -6,7 +6,9 @@ import PageLayout from "./PageLayout";
 
 const App = () => {
 
-  let data = "This is the content of my website"
+  let data = "This is the content of my website."
+"
+
   return (
     <div>
        <PageLayout  name={data}/>
