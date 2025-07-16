@@ -14,12 +14,12 @@
 
 import React from 'react';
 
-const PageLayout = ({ name }) => {
+const PageLayout = ({ children,header,footer }) => {
   return (
     <div>
-      <h1>Welcome to my website</h1>
-      <p>{name}</p>
-      <footer>© 2023 My Website. All rights reserved.</footer>
+      <h1>{header}</h1>
+      <p>{children}</p>
+      <footer>{footer}</footer>
     </div>
   );
 };
